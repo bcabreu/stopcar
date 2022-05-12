@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+button {
+    cursor: pointer;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: #fff;
+}
+.logo {
+    width: 15%;
+    margin-bottom: 40px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    padding: 0 20px;
+    margin-right: 10px;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+#cadastrar {
+    width: 90px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    transition: 0.4s;
+}
+
+#cadastrar:hover {
+    background: rgb(0, 55, 137);
+    color: #fff;
+}
+
+.inputs {
+    margin-bottom: 30px;
+}
+
+table {
+    width: 60%;
+    align-items: center;
+    text-align: center;
+}
+
+thead tr th {
+    color: rgb(4, 91, 223);
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+#patio button {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    transition: 0.4s;
+    background: rgb(255, 82, 82);
+    color: #fff;
+
+}
+
+#patio button:hover {
+    background: rgb(175, 1, 1);
+    color: #fff;
+}
+
+#patio tr td {
+    padding-bottom: 12px;
+}
